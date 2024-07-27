@@ -1,0 +1,109 @@
+@media (max-width: 768px) {
+   .menu-icon {
+      display: block;
+   }
+
+   .nav-links {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      background-color: #444;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      padding: 15px 0;
+      z-index: 100;
+   }
+
+   .nav-links li {
+      text-align: center;
+      margin: 10px 0;
+   }
+
+   .nav-links.show {
+      display: flex;
+   }
+   /*Footer*/
+   footer {
+      width: 90%;
+      min-height: 200px;
+      background-image: url("../img/_MG_9941b.png");
+   }
+   * {
+      box-sizing: border-box;
+   }
+   #contact {
+      width: 100%;
+      min-height: 600px;
+      background-image: url("../img/MG_9941b.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-size: cover;
+      background-position: center center;
+      font-family: "gotham", sans-serif;
+      font-weight: 600;
+      font-size: 17px;
+   }
+
+   #contact form {
+      max-width: 560px;
+   }
+   .form-control {
+      padding: 8px;
+      margin-bottom: 10px;
+      width: 100%;
+   }
+   .shadow {
+      border: 1px solid #870002;
+      padding: 20px;
+      box-shadow: color blue;
+      box-shadow: 5px 5px 5px #870002;
+   }
+   .leftpart {
+      width: 40%;
+      float: left;
+   }
+
+   footer {
+      width: 100%;
+      margin: 0 auto;
+      border-top: #faa220 8px solid;
+      background-color: #870002;
+      padding: 16px;
+      padding-top: 40px;
+   }
+
+   footer > .container {
+      display: flex;
+      justify-content: start;
+      flex-wrap: wrap;
+      align-items: start;
+      gap: 24px;
+      height: fit-content;
+      padding: 0 12px;
+      width: 100%;
+      color: #fff;
+   }
+
+   .footer-item iframe {
+      margin: 0 auto;
+      width: 100vw !important;
+   }
+
+   #contact form {
+      margin-right: 24px;
+   }
+}
+
+@media (min-width: 768px) {
+   footer > .container {
+      padding: 0 24px;
+      width: 100% !important;
+      max-width: none;
+      justify-content: space-between;
+   }
+
+   .footer-item iframe {
+      margin: 0 auto;
+   }
+}

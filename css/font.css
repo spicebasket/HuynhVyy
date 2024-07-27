@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Gotham";
+  src: url("../SVN\ Gotham/SVN-Gotham Book.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("./fonts/MyCustomFont-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: "Gotham", sans-serif;
+}
